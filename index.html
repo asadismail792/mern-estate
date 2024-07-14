@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Assignment</title>
+</head>
+<body>
+  <h1>Add Assignment</h1>
+  <form action="http://localhost:3000/assignments" method="POST">
+    <label>Title: <input type="text" name="title"></label><br>
+    <label>Description: <textarea name="description"></textarea></label><br>
+    <label>Due Date: <input type="date" name="dueDate"></label><br>
+    <label>Created By: <input type="text" name="createdBy"></label><br>
+    <button type="submit">Add Assignment</button>
+  </form>
+</body>
+</html>
